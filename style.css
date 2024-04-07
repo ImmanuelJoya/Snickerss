@@ -1,0 +1,248 @@
+/* .container{
+    display: flex;
+}
+
+.icon{
+    margin: 10px;
+    background-color:transparent ;
+
+} */
+.navbar {
+    border-radius: 25px;
+    margin-top: 20px;
+
+}
+
+.s1 {
+    /* justify-content: space-between; */
+    background: linear-gradient(45deg, black, blue);
+    height: 150px;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+.rta {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.gs {
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.main {
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+/* animation */
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 100% 100%;
+    animation: gradient 15s ease infinite;
+    height: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.myjnas {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(rgb(255, 16, 16), rgb(0, 0, 0), rgb(17, 17, 255));
+}
+
+.hungry {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: -10.9%;
+
+
+}
+
+.sapnn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: -8.7%;
+}
+
+footer {
+    /* justify-content: space-between; */
+    background: linear-gradient(45deg, black, blue);
+    height: fit-content;
+    display: flex;
+    /* border-radius: 85% 85% 0% 0% / 30%; */
+
+
+    background:
+        linear-gradient(rgb(0, 0, 0)d, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
+
+
+.plady {
+
+    height: 444px;
+    position: relative;
+
+}
+
+.footericon {
+    width: 80px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.footerh3 {
+    position: relative;
+    margin-top: 5px;
+}
+
+.footeri {
+
+    position: relative;
+    left: -24px;
+}
+
+.pfooter {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    float: inline-end;
+
+
+
+}
+
+.parafooter {
+
+    font-size: smaller;
+    color: #7a7a7a;
+    line-height: 16px;
+    align-content: flex-end;
+
+}
+
+.container-1,
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 5px;
+    flex-direction: row;
+
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6 {
+    border-radius: 15px;
+    border: 5px solid transparent;
+    background-color: rgb(rgb(255, 16, 16), rgb(0, 0, 0), rgb(17, 17, 255));
+    flex-basis: 30%;
+    margin: 10px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, .4);
+    width: 325px;
+    height: 425px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 55px;
+}
+
+.card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.4 ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+
+}
+
+.card-content {
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(13, 14, 32, 0.77);
+    transform: translateY(100%);
+    transition: 0.4s ease;
+}
+
+.card:hover .card-content {
+
+    transform: translateY(0%);
+}
+
+.card-content h2 {
+    font: size 32px;
+    ;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #f6f6f6;
+    margin: 8px 8px;
+}
+
+.card-content .btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ff00bf;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.aboutcon {
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-around;
+
+}
+
+.headingg {
+
+    box-shadow: 0 6px 12px 12px rgba(0, 0, 0, .4);
+    letter-spacing: 1.5px;
+}
